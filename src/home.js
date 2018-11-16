@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Grid, Row, Col, Thumbnail } from 'react-bootstrap';
+import { Grid, Row, Col, Thumbnail, Carousel } from 'react-bootstrap';
+
 
 
 class Home extends Component {
     render() {
         return (
           
-            <div>  
+            <div className="body">  
             {/* this is the top of the page / intro  */}
                 <div className="whiteBox" id="aboutMe">
             
@@ -46,33 +47,65 @@ class Home extends Component {
                     </div>
             </div> 
             
-                <div className="whiteBox" id="webDev">
-                    <p className="mainFont">Web</p>
-                    <p className="mainFont2">Development.</p>
-                    
-                    <Grid>
-                        <Row className="show-grid">
-                            <Col id="thumbNail" md={6} mdPush={6}>
-                                <Thumbnail id="thumbNail1" href="#" alt="171x180" src="/public/assets/photos/dannyray.png" img="/public/assets/photos/dannyray.png" />
-                                <Thumbnail href="#" alt="171x180" src="/thumbnail.png" />
-                                <Thumbnail href="#" alt="171x180" src="/thumbnail.png" />
-
-                                <code>{}</code>
-                            </Col>
-                            <Col id="thumbNail" md={6} mdPull={6}>
-                                <Thumbnail href="#" alt="171x180" src="/thumbnail.png" />
-                                <Thumbnail href="#" alt="171x180" src="/thumbnail.png" />
-                                <Thumbnail href="#" alt="171x180" src="/thumbnail.png" />
-
-                                <code>{}</code>
-                            </Col>
-                        </Row>
-                    </Grid>   
+                <div className="whiteBox3" >
+                    <p  id="webDev" className="mainFont">Web</p>
+                    <p id="webDev" className="mainFont2">Development.</p>
+                    {/* <Carousel id="carousel">
+                        <Carousel.Item  >
+                            <img className="c1" alt="" src="/carousel.png" />
+                            <Carousel.Caption>
+                            <h3>High </h3>
+                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img className="c2" alt="900x500" src="/carousel.png" />
+                            <Carousel.Caption>
+                            <h3>Second slide label</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img width={900} height={500} alt="900x500" src="/carousel.png" />
+                            <Carousel.Caption>
+                            <h3>Third slide label</h3>
+                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                    </Carousel>; */}
+                    <div>
+                        <div className="inline">
+                        <p className="whiteBoxFont">UX</p>
+                        <p className="whiteBoxFont2">Design.</p>
+                        <p className="paragraphFont">
+                            I aim to design websites that enable clients to establish
+                            their brand presence online while making use of the latest tools and
+                            technologies to ensure their website delivers results. The goal is to develop
+                            cutting-edge sites that reflect the brand and help reach more customers
+                            while also driving growth. 
+                        </p> 
+                        </div>    
+                    </div>
+                    <div className="image1"></div>
+                    <div className="image2"></div> 
                 </div>
                 
-                <div className="bodyFont"> 
-                    <p className="mainFont">Web</p>
-                    <p className="mainFont2">Development.</p>
+                <div className="white"> 
+                    <div className="whiteMiniBox">
+                        <p id="colorWhite1" className="whiteBoxFont">Web</p>
+                        <p id="colorWhite2" className="whiteBoxFont2">Development.</p> 
+                        <p className="paragraphFont2">
+                        I have developed a deep understanding of responsive design, grounded in years of
+                        experience designing for mobile screens, tablets and desktop, and everything
+                        in between. I can develop apps on every platform that perform seamlessly
+                        across devices and create content for e-commerce and social experiences and much more.
+                        </p>
+                    </div>
+                        <div className="image3"></div> 
+                        
+
+
+
                         <div>
                             <p className="subFont">Artist.</p>
                             <p className="subFont">Developer.</p>
@@ -82,40 +115,38 @@ class Home extends Component {
                         </div>
                 </div> 
                             
-                <div className="whiteBox">
-                    <div className="whiteBoxFont">
-                        <p className="mainFont">UX</p>
-                        <p className="mainFont2">Design.</p> 
-                    </div>
-                </div>
                 
-                <img src="/Users/totalbeauty/portfolio/finalportfolio/public/assets/photos/dannyray.png" alt=""></img>
-
-                <div className="bodyFont"> 
-                    <p className="mainFont">Danny</p>
-                    <p className="mainFont2">Morris</p>
-                        <div>
-                            <p className="subFont">Artist.</p>
-                            <p className="subFont">Developer.</p>
-                            <p className="subFont">UX Designer.</p>
-                            <p className="subFont">Marketing.</p>
-                            <p className="subFont">Real.</p>
+                    {/* <div className="whiteBox">
+                        <div className="whiteBoxFont">
+                            <p className="mainFont">UX</p>
+                            <p className="mainFont2">Design.</p> 
                         </div>
-                </div>
-                <div className="whiteBox">
+                    </div> */}
+                
+
+
+
+                <div className="bodyFont1"> 
                     <p className="mainFont" id="contactMe">Contact</p>
-                    <p className="mainFont2">Me.</p>
-                        <div>
-                            <p className="subFont">stuff</p>
-                            <p className="subFont">stuff.</p>
-                            <p className="subFont">UX stuff.</p>
-                            <p className="subFont">Marketing stuff.</p>
-                            <p className="subFont">Real stuff.</p>
-                        </div>
+                    <p className="mainFont2">Danny</p>
+                    <ul>
+                    <p className="subFonts"> Tel: (310)-438-9516</p>
+                    <p className="subFonts"> Email: Dannymorris188@gmail.com</p>
+                    <a className="subFonts" href="" alt="">Resume</a>
+                    <a className="subFonts" href="https://github.com/raisedproper" target="_blank" rel="noopener noreferrer"> GitHub </a>
+                    </ul>
 
-                    <a id="links" href="https://www.github.com" target="_blank" rel="noopener noreferrer">all rights reserved | github | dannymorris188@gmail.com</a>
-                </div>   
-             </div>   
+                        
+
+                    <div id="links">
+                        <p> All Rights Reseved. Site made from scratch by Danny Morris </p>
+                       
+                    </div>
+               </div>
+                   
+                    
+        </div>   
+                
         )
     }
 

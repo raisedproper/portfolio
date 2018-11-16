@@ -6,9 +6,12 @@
 .bodyFont {
   text-align: left;
   padding-left: 3%;
-  padding-top: 30%
-  
-  
+  padding-top: 40%
+}
+
+.bodyFont1 {
+  padding-top: 0%
+
 }
 
 .mainFont {
@@ -57,6 +60,20 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+}
+
+a {
+  color: white
+}
+
+.subFonts {
+  color: white;
+  font-family: 'Raleway', sans-serif; 
+  font-size: 30px;
+  padding-left: 3%;
+
+
 
 }
 
@@ -110,6 +127,7 @@ body {
 
 .whiteBox {
   background-color: white;
+  padding-bottom: 10px;
   height: 60%;
   width: 100%;
   background-image: url(http://freebigpictures.com/wp-content/uploads/cloudy-sky.jpg);
@@ -120,21 +138,32 @@ body {
 
 }
 
+.whiteMiniBox {
+  color: white;
+  padding-bottom: 10px;
+  width: 100%;
+  background-image: url(http://freebigpictures.com/wp-content/uploads/cloudy-sky.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #aboutMe{
   height: 98.34%
 }
 
 .whiteBoxFont {
   text-align: left;
-  padding-top: 20%;
-  padding-left: 3%
+  padding-top: -10%;
+  padding-left: 20%
 }
 
 #webDev {
   text-align: left;
   padding-left: 3%;
-  padding-top: 3%;
-  height: 100%
+  
+  
 }
 
 #links {
@@ -144,13 +173,15 @@ body {
   color: white;
   margin-top: 50px;
   margin-left: 30%;
-  padding-top: 50%
-
+  padding-top: 7%;
+  display : inline-block;
+  padding-bottom: 3%
 
 }
 
 #contactMe {
-  margin-left: 3%
+  margin-left: 3%;
+  height: 30%
 }
 
 .firstWord {
@@ -161,18 +192,132 @@ body {
 
 #thumbNail {
   height: 300px; 
+  background-image: url(http://i1253.photobucket.com/albums/hh598/raisedproper/Screen%20Shot%202018-11-13%20at%203.57.32%20PM_zpslvm3j7vg.png);
+  width: 50%;
 
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #thumbNail1{
-  height: 300px; 
+  height: 600px; 
 
+}
+
+#contact, .whiteBox {
+  height: 10%
+}
+
+.c1 {
+  background-image: url(https://lh3.googleusercontent.com/DEzNxlTw4xGEC5KT03HxuO_EJF8_ULyfUhavJmxebgrvhjR8U1RHk2ehwE9vC66NBVp5O3bXqik4nDjvjQKlmDPQzrOxB_13c-lbNQSGY1BT1HGIDS4dByB6X7dsgS40kaRtXiATdkbLOwvnAs_R4Yc4v3E-qB2XwkhMAPSzmOr07GPJPm6Di8b30cNT_cOK5D7YJMG0N3n2kTi1zCvnUPOmkLSHtB3dDfEx83oU8IuWUWeeEBNsIzlJJpiUPL5QFfEDRUxXSRuinytUxazjBATTj6PK8QyHcuGCDqZ6JzjgQGcntDlEqs26lDFUbJdbYPG0OO9dNqs8cvOVMJl82dZ5L8PA_F0ljsUJhuxoEKeWmvQkAmxIJH8tUazkNN9Mi9HAdUxbBBDkBowp7asB2yLF5evuoVHfCjxKxbFHwwxYK9PRs8_r2gQQhte18pDMCcgapfLGRr6zqTwKiPT-FN1OsEC1zutG2wbunr_Qc11CAGCBJwAImuib-XXD8YamZIz3T51ypkmGxP-BqJWT8QDtHVXCn6-oVYOxShIcZmvPRtuOZXCpmZMoO2nLh7uWd3mAhW5TO4QnhiyzDaH23XSVAyiIb_nxByqGwrEo0B3LiG__h0TRRk7kxa5tL_qGi_eXyjHmx51xJpiz6LUWFgQw=w958-h723-no);
+  height: 1000px;
+  background-repeat: no-repeat;
+  padding-top: ;
+  background-position: center;
+  
 }
 
 
 
+#carousel {
+margin-bottom: 200px;
+padding-left: 0%;
+height: 400px
+}
+
+.whiteBox3 {
+  background-color: white;
+  
+}
+
+.image1 {
+  background-image: url(https://lh3.googleusercontent.com/DEzNxlTw4xGEC5KT03HxuO_EJF8_ULyfUhavJmxebgrvhjR8U1RHk2ehwE9vC66NBVp5O3bXqik4nDjvjQKlmDPQzrOxB_13c-lbNQSGY1BT1HGIDS4dByB6X7dsgS40kaRtXiATdkbLOwvnAs_R4Yc4v3E-qB2XwkhMAPSzmOr07GPJPm6Di8b30cNT_cOK5D7YJMG0N3n2kTi1zCvnUPOmkLSHtB3dDfEx83oU8IuWUWeeEBNsIzlJJpiUPL5QFfEDRUxXSRuinytUxazjBATTj6PK8QyHcuGCDqZ6JzjgQGcntDlEqs26lDFUbJdbYPG0OO9dNqs8cvOVMJl82dZ5L8PA_F0ljsUJhuxoEKeWmvQkAmxIJH8tUazkNN9Mi9HAdUxbBBDkBowp7asB2yLF5evuoVHfCjxKxbFHwwxYK9PRs8_r2gQQhte18pDMCcgapfLGRr6zqTwKiPT-FN1OsEC1zutG2wbunr_Qc11CAGCBJwAImuib-XXD8YamZIz3T51ypkmGxP-BqJWT8QDtHVXCn6-oVYOxShIcZmvPRtuOZXCpmZMoO2nLh7uWd3mAhW5TO4QnhiyzDaH23XSVAyiIb_nxByqGwrEo0B3LiG__h0TRRk7kxa5tL_qGi_eXyjHmx51xJpiz6LUWFgQw=w958-h723-no);
+  height: 750px;
+  width: 900px;
+  margin-left: 22%;
+
+}
+
+.whiteBoxFont {
+  font-family: 'Raleway', sans-serif;
+  font-size: 100px;
+  color: black;
+  padding-left: 10%;
+  font-weight: 500;
 
 
+}
+
+.whiteBoxFont2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 100px;
+  color: black;
+  font-weight: 100
+}
+
+.whiteBoxFont, .whiteBoxFont2, .paragraphFont {
+  display : inline-block;
+  padding-top: 2%
+  
+
+ 
+
+}
+
+.paragraphFont {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: black;
+  margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-left: 3%;
+    padding-bottom: 7%
+
+}
+
+.paragraphFont2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: white;
+  margin-left: auto; 
+    margin-right: auto;
+    width: 50%;
+    padding-left: 3%;
+    padding-bottom: 7%;
+    
+    
+}
+
+.image3 {
+  background-image: url(https://lh3.googleusercontent.com/YcJjnEh6FcwSib7xQVPmQ9KHM28IxtF6619gYgYpfdqnPYAjxENDG7xFyNxWyswLpPHQSyegEBQD_-2rnTZ9dRt7n_DLXSEsY6DD5p6QZV9RA8s-Ow3OW1JMfqEjfr0LAE18ZK_XnByJ6sbKTJSUQzCfu3BMSFwbBBoNSbaiPdGSOrEpSub15ceqX-jKgr0F6DL9f5EwEUa4lCU4x14dtslSo5wWYpCN5ETE3zYHyMhH7BUPOzDnYYcNWwTWdvgdggtNK-7t7cjOvlhS6kUMxSss5oJtXHm4ZljMekdX6prdFhboCkXzwlvk8M-VPnvtROuBx31Ey0RnsUXNIZDz-aGEYtOTL-_la0ocWamnIDLFUvIv6e5WYdry0BSSAG5guDcRCWr-pLoXT1zBUVfV8ZyNkbHEZP2TH4xhZEbwZpRbNdJ2ZotgXLxyv4YPK_VteS53u3LyJPQto1xX-lLagY5QjaEY3szeuBDxAm5lH2JRaOApXf0IXMVTuoeGrgIgbRA79GiUhOQVZCbMVFLxh3sa0wBrV4hojIW7ubX1VweukYMnUTm1Ek0PP9P9qWB2-DRKFHm41UbHEmTaNIKTVm4hsRqZ-KGniLa0jadPscWZjPF5elAUGOje8doN_5HLJapPd_sP5bo8Y7ATv5hliI27=w1016-h714-no);
+  height: 1000px;
+  background-repeat: no-repeat;
+  padding-top: 17%;
+  background-position: center;
+}
+
+.white {
+  background-color: white
+}
+
+#colorWhite1 {
+  color: white;
+  padding-left: 21%;
+}
+
+#colorWhite2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 100px;
+  color: white;
+  font-weight: 100
+}
+
+.inline {
+  display : inline-block;
+
+}
 
 
 
