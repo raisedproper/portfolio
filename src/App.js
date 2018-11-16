@@ -6,6 +6,7 @@ import Home from "./home.js";
 
 
 
+
 class App extends Component {
   render() {
     return (
@@ -13,7 +14,7 @@ class App extends Component {
 
           <Home />
         
-          <div src="./public/assets/photos/dannyray.jpg" alt="photo"></div>
+          <img src="./public/assets/photos/dannyray.jpg" alt="photo"></img>
         
       </body>  
     );
