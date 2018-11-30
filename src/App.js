@@ -14,7 +14,7 @@ class App extends Component {
 
           <Home />
         
-          <img src="./public/assets/photos/dannyray.jpg" alt="photo"></img>
+          <img src="./public/assets/photos/dannyray.jpg" alt="dannyr"></img>
         
       </body>  
     );
