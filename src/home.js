@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
+<<<<<<< HEAD
+=======
+import { Grid, Row, Col, Thumbnail, Carousel } from 'react-bootstrap';
+>>>>>>> 79e1d188c68c3430c1de6085380e2c8850670fe2
 
 
 
